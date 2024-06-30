@@ -6,42 +6,44 @@ import omlette from "@/assets/image-omelette.jpeg";
 ---
 
 <MainLayout title="Frontend Mentor | Recipe Page">
-  <section class="mx-auto my-24 w-[738px] rounded-3xl bg-neutralWhite p-10">
+  <article class="mx-auto my-24 w-[738px] rounded-3xl bg-neutralWhite p-10">
     <Image
       src={omlette}
-      alt="omlette"
+      alt="Yummy Omlette"
       loading={"eager"}
       class="mb-8 rounded-xl"
     />
-    <h1 class="mb-4 font-youngSerif text-[40px] text-neutralDarkCharcoal">
-      Simple Omelette Recipe
-    </h1>
-    <p class="text-md mb-10 text-neutralWengeBrown">
-      An easy and quick disk, perfect for any meal. This classic omellet
-      combines beaten eggs cooked to perfection, optionally filled with your
-      choice of cheese, vegatables, or meats.
-    </p>
 
-    <div class="mb-8 bg-neutralRoseWhite p-6">
-      <h3 class="mb-4 text-xl font-semibold text-primaryDarkRaspberry">
-        Preparation time
-      </h3>
-      <ul
-        class="grid list-disc gap-y-2 pl-6 marker:text-xs marker:text-primaryDarkRaspberry"
-      >
-        <li class="pl-4 text-neutralWengeBrown">
-          <span class="font-bold">Total:</span> Approximately 10 minutes
-        </li>
-        <li class="pl-4 text-neutralWengeBrown">
-          <span class="font-bold">Preparation:</span> 5 minutes
-        </li>
-        <li class="pl-4 text-neutralWengeBrown">
-          <span class="font-bold">Cooking:</span> 5 minutes
-        </li>
-      </ul>
-    </div>
+    <section class="mb-8">
+      <h1 class="mb-4 font-youngSerif text-[40px] text-neutralDarkCharcoal">
+        Simple Omelette Recipe
+      </h1>
+      <p class="text-md mb-10 text-neutralWengeBrown">
+        An easy and quick disk, perfect for any meal. This classic omellet
+        combines beaten eggs cooked to perfection, optionally filled with your
+        choice of cheese, vegatables, or meats.
+      </p>
+      <div class="bg-neutralRoseWhite p-6">
+        <h3 class="mb-4 text-xl font-semibold text-primaryDarkRaspberry">
+          Preparation time
+        </h3>
+        <ul
+          class="grid list-disc gap-y-2 pl-6 marker:text-xs marker:text-primaryDarkRaspberry"
+        >
+          <li class="pl-4 text-neutralWengeBrown">
+            <span class="font-bold">Total:</span> Approximately 10 minutes
+          </li>
+          <li class="pl-4 text-neutralWengeBrown">
+            <span class="font-bold">Preparation:</span> 5 minutes
+          </li>
+          <li class="pl-4 text-neutralWengeBrown">
+            <span class="font-bold">Cooking:</span> 5 minutes
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="mb-6 border-b">
+    <section class="mb-6 border-b">
       <h2 class="mb-4 font-youngSerif text-[28px] text-primaryNutmeg">
         Ingredients
       </h2>
@@ -58,9 +60,9 @@ import omlette from "@/assets/image-omelette.jpeg";
           Optional fillings: cheese, diced vegatables, cooked meats, herbs
         </li>
       </ul>
-    </div>
+    </section>
 
-    <div class="mb-6 border-b">
+    <section class="mb-6 border-b">
       <h2 class="mb-4 font-youngSerif text-[28px] text-primaryNutmeg">
         Instructions
       </h2>
@@ -96,42 +98,26 @@ import omlette from "@/assets/image-omelette.jpeg";
           and pepper if needed.
         </li>
       </ol>
-    </div>
+    </section>
 
-    <h2 class="mb-4 font-youngSerif text-[28px] text-primaryNutmeg">
-      Nutrition
-    </h2>
-    <p class="text-md mb-4 text-neutralWengeBrown">
-      The table below shows nutritional values per serving without additional
-      fillings.
-    </p>
-    <!-- <table class="text-md grid table-auto text-neutralWengeBrown">
-      <tr class="border-b">
-        <td>Calories</td>
-        <td>277kcal</td>
-      </tr>
-      <tr class="border-b">
-        <td>Carbs</td>
-        <td>0g</td>
-      </tr>
-      <tr>
-        <td>Protein</td>
-        <td>20g</td>
-      </tr>
-      <tr>
-        <td>Fat</td>
-        <td>22g</td>
-      </tr>
-    </table> -->
-    <div class="text-md grid grid-cols-2 gap-y-2 text-neutralWengeBrown">
-      <p class="border-b pl-8">Calories</p>
-      <p class="border-b">277kcal</p>
-      <p class="border-b pl-8">Carbs</p>
-      <p class="border-b">0g</p>
-      <p class="border-b pl-8">Protein</p>
-      <p class="border-b">20g</p>
-      <p class="pl-8">Fat</p>
-      <p class="">22g</p>
-    </div>
-  </section>
+    <section>
+      <h2 class="mb-4 font-youngSerif text-[28px] text-primaryNutmeg">
+        Nutrition
+      </h2>
+      <p class="text-md mb-4 text-neutralWengeBrown">
+        The table below shows nutritional values per serving without additional
+        fillings.
+      </p>
+      <div class="text-md grid grid-cols-2 gap-y-2 text-neutralWengeBrown">
+        <p class="border-b pl-8">Calories</p>
+        <p class="border-b">277kcal</p>
+        <p class="border-b pl-8">Carbs</p>
+        <p class="border-b">0g</p>
+        <p class="border-b pl-8">Protein</p>
+        <p class="border-b">20g</p>
+        <p class="pl-8">Fat</p>
+        <p class="">22g</p>
+      </div>
+    </section>
+  </article>
 </MainLayout>
