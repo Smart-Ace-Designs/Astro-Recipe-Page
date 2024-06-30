@@ -6,10 +6,17 @@ import omlette from "@/assets/image-omelette.jpeg";
 ---
 
 <MainLayout title="Frontend Mentor | Recipe Page">
-  <section>
-    <Image src={omlette} alt="omlette" loading={"eager"} />
-    <h1>Simple Omelette Recipe</h1>
-    <p>
+  <section class="mx-auto my-24 w-[750px] rounded-3xl bg-neutralWhite p-10">
+    <Image
+      src={omlette}
+      alt="omlette"
+      loading={"eager"}
+      class="mb-8 rounded-xl"
+    />
+    <h1 class="mb-4 font-youngSerif text-[38px] text-neutralDarkCharcoal">
+      Simple Omelette Recipe
+    </h1>
+    <p class="text-md font-outfit text-neutralDarkCharcoal">
       An easy and quick disk, perfect for any meal. This classic omellet
       combines beaten eggs cooked to perfection, optionally filled with your
       choice of cheese, vegatables, or meats.
