@@ -6,12 +6,14 @@ import omlette from "@/assets/image-omelette.jpeg";
 ---
 
 <MainLayout title="Frontend Mentor | Recipe Page">
-  <article class="mx-auto my-24 w-[738px] rounded-3xl bg-neutralWhite p-10">
+  <article
+    class="mx-auto rounded-3xl bg-neutralWhite md:my-24 md:w-[738px] md:p-10"
+  >
     <Image
       src={omlette}
       alt="Yummy Omlette"
       loading={"eager"}
-      class="mb-8 rounded-xl"
+      class="mb-8 md:rounded-xl"
     />
 
     <section class="mb-8">
@@ -43,7 +45,7 @@ import omlette from "@/assets/image-omelette.jpeg";
       </div>
     </section>
 
-    <section class="mb-6 border-b">
+    <section class="mb-6 border-b border-neutralLightGrey">
       <h2 class="mb-4 font-youngSerif text-[28px] text-primaryNutmeg">
         Ingredients
       </h2>
@@ -62,7 +64,7 @@ import omlette from "@/assets/image-omelette.jpeg";
       </ul>
     </section>
 
-    <section class="mb-6 border-b">
+    <section class="mb-6 border-b border-neutralLightGrey">
       <h2 class="mb-4 font-youngSerif text-[28px] text-primaryNutmeg">
         Instructions
       </h2>
@@ -109,15 +111,15 @@ import omlette from "@/assets/image-omelette.jpeg";
         fillings.
       </p>
       <table class="mb-4 w-full table-auto text-neutralWengeBrown">
-        <tr class="border-b">
+        <tr class="border-b border-neutralLightGrey">
           <td class="py-3 pl-8">Calories</td>
           <td class="pl-[100px] font-bold text-primaryNutmeg">277kcal</td>
         </tr>
-        <tr class="border-b">
+        <tr class="border-b border-neutralLightGrey">
           <td class="py-3 pl-8">Carbs</td>
           <td class="pl-[100px] font-bold text-primaryNutmeg">0g</td>
         </tr>
-        <tr class="border-b">
+        <tr class="border-b border-neutralLightGrey">
           <td class="py-3 pl-8">Protein</td>
           <td class="pl-[100px] font-bold text-primaryNutmeg">20g</td>
         </tr>
