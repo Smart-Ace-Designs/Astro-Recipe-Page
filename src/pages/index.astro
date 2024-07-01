@@ -7,12 +7,14 @@ import omlette from "@/assets/image-omelette.jpeg";
 
 <MainLayout title="Frontend Mentor | Recipe Page">
   <article class="mx-auto bg-neutralWhite md:my-24 md:w-[738px] md:rounded-3xl">
-    <Image
-      src={omlette}
-      alt="Yummy Omlette"
-      loading={"eager"}
-      class="mb-8 px-0 pt-0 md:rounded-xl md:px-10 md:pt-10"
-    />
+    <div class="mb-8 px-0 pt-0 md:rounded-xl md:px-10 md:pt-10">
+      <Image
+        src={omlette}
+        alt="Yummy Omlette"
+        loading={"eager"}
+        class="md:rounded-xl"
+      />
+    </div>
 
     <section class="mx-10 mb-8">
       <h1
