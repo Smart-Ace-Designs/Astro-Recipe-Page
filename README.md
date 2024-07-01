@@ -42,9 +42,8 @@ Working with tables.
 
 ### Continued development
 
-I feel like the design I used for the table was a hack with a bunch of tweaks to get it to look correct. I feel like there should be a more eloquent method to do this.
-
-I could only get the mobile design to work by setting individual margins/padding on the sections and the image (whereas originally I had set padding on the container itself until I tried to implement the mobile design). Otherwise, I could not figure out how to make the image flush but yet keep horizontal spacing for the sections at the same time when in mobile design. I feel like there should be an easier and clearner way to do this.
+- Convert recipe card to a Astro component.
+- Investigate pulling recipe data from a JSON file or a database.
 
 ## Author
 
