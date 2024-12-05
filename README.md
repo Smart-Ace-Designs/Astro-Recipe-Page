@@ -10,14 +10,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### Screenshot
+
 ![recipe-card](https://github.com/Smart-Ace-Designs/Astro-Recipe-Page/assets/132539186/c5221028-2107-4bb1-8f5c-01bc5df572d3)
 
 ### Links
@@ -37,20 +35,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Bun
 - Mobile-first workflow
 
-### What I learned
-
-Working with tables.
-
-### Continued development
-
-- Convert recipe card to a Astro component.
-- Investigate pulling recipe data from a JSON file or a database.
-
 ## Author
 
 - Website - [Smart Ace Designs (GitHub)](https://github.com/Smart-Ace-Designs)
 - Frontend Mentor - [@smart-ace-designs](https://www.frontendmentor.io/profile/Smart-Ace-Designs)
-
-## Acknowledgments
-
-None at this time.
