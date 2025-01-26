@@ -4,18 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryNutmeg: "hsl(14, 45%, 36%)",
-        primaryDarkRaspberry: "hsl(332, 51%, 32%)",
-        neutralWhite: "hsl(0, 0%, 100%)",
-        neutralRoseWhite: "hsl(330, 100%, 98%)",
-        neutralEggshell: "hsl(30, 54%, 90%)",
-        neutralLightGrey: "hsl(30, 18%, 87%)",
-        neutralWengeBrown: "hsl(30, 10%, 34%)",
-        neutralDarkCharcoal: "hsl(24, 5%, 18%)",
+        "primary-nutmeg": "hsl(14, 45%, 36%)",
+        "primary-dark-raspberry": "hsl(332, 51%, 32%)",
+        "neutral-white": "hsl(0, 0%, 100%)",
+        "neutral-rose-white": "hsl(330, 100%, 98%)",
+        "neutral-eggshell": "hsl(30, 54%, 90%)",
+        "neutral-light-grey": "hsl(30, 18%, 87%)",
+        "neutral-wenge-brown": "hsl(30, 10%, 34%)",
+        "neutral-dark-charcoal": "hsl(24, 5%, 18%)",
       },
       fontFamily: {
-        outfit: ["outfit", "sans-serif"],
-        youngSerif: ["young serif", "sans-serif"],
+        "outfit": ["outfit", "sans-serif"],
+        "young-serif": ["young serif", "sans-serif"],
       },
     },
   },
