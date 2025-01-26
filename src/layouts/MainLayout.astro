@@ -1,5 +1,5 @@
 ---
-import "@/styles/styles.css";
+import "@/styles/global.css";
 import { ClientRouter } from "astro:transitions";
 
 interface Props {
@@ -17,7 +17,7 @@ const { title = "Astro" } = Astro.props;
     <title>{title}</title>
     <ClientRouter />
   </head>
-  <body class="bg-neutral-eggshell font-outfit">
+  <body class="bg-theme-eggshell font-outfit">
     <slot />
   </body>
 </html>
