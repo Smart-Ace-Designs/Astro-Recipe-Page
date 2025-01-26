@@ -14,8 +14,8 @@ export default {
         "theme-dark-charcoal": "hsl(24, 5%, 18%)",
       },
       fontFamily: {
-        outfit: ["outfit", "sans-serif"],
-        "young-serif": ["young serif", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+        "young-serif": ["Young Serif", "sans-serif"],
       },
     },
   },
