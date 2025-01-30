@@ -1,17 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@font-face {
-  font-family: "Young Serif";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/YoungSerif-Regular.ttf") format("truetype");
+@theme {
+  --color-theme-nutmeg: hsl(14, 45%, 36%);
+  --color-theme-dark-raspberry: hsl(332, 51%, 32%);
+  --color-theme-white: hsl(0, 0%, 100%);
+  --color-theme-rose-white: hsl(330, 100%, 98%);
+  --color-theme-eggshell: hsl(30, 54%, 90%);
+  --color-theme-light-grey: hsl(30, 18%, 87%);
+  --color-theme-wenge-brown: hsl(30, 10%, 34%);
+  --color-theme-dark-charcoal: hsl(24, 5%, 18%);
+
+  --font-outfit: Outfit, sans-serif;
+  --font-young-serif: "Young Serif", sans-serif;
 }
 
-@font-face {
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 400 600 700;
-  src: url("/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+
+  @font-face {
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/YoungSerif-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400 600 700;
+    src: url("/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+  }
 }
