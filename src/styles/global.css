@@ -28,12 +28,14 @@
     font-style: normal;
     font-weight: 400;
     src: url("/fonts/YoungSerif-Regular.ttf") format("truetype");
+    font-display: swap;
   }
 
   @font-face {
     font-family: "Outfit";
     font-style: normal;
-    font-weight: 400 600 700;
+    font-weight: 400 700;
     src: url("/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+    font-display: swap;
   }
 }
