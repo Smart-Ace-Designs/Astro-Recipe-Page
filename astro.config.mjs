@@ -17,7 +17,6 @@ export default defineConfig({
         cssVariable: "--font-outfit",
         weights: [400, 600, 700],
         styles: ["normal"],
-        subsets: ["latin"],
       },
       {
         provider: fontProviders.google(),
@@ -25,7 +24,6 @@ export default defineConfig({
         cssVariable: "--font-young-serif",
         weights: [400],
         styles: ["normal"],
-        subsets: ["latin"],
       },
     ],
   },
