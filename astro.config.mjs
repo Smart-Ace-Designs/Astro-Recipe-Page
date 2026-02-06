@@ -8,7 +8,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [],
   experimental: {
     fonts: [
       {
