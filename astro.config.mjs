@@ -5,6 +5,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://smart-ace-designs.github.io",
+  base: "/astro-recipe-page",
+  trailingSlash: "always",
   vite: {
     plugins: [tailwindcss()],
   },
